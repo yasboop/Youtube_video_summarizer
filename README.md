@@ -57,8 +57,6 @@ This repository provides a pipeline that:
 
 ```plaintext
 ## 🛠️ Project Structure
-
-```bash
 Youtube_video_summarizer/
 ├── debug_frames/                 # Preprocessed frames for OCR debugging
 ├── frames/                       # Frames captured from the video at intervals
@@ -71,7 +69,6 @@ Youtube_video_summarizer/
 ├── config.json                    # Configuration file for model settings, OCR, etc.
 ├── requirements.txt                # List of required Python dependencies
 ├── Video_Summarizer_Yash_Verma.ipynb  # Jupyter Notebook for demonstration
-├── Video_Summarizer_Yash_Verma.py      # Python script version (optional)
 ├── summary_report.md              # Generated Markdown report of the summarized video
 ├── README.md                      # This file, explaining the project
 
