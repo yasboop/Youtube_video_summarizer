@@ -56,12 +56,22 @@ This repository provides a pipeline that:
 ## 📂 Project Structure
 
 ```plaintext
-├── README.md              # This file
-├── config.json            # Configuration file for model settings, OCR, etc.
-├── main.py                # Main pipeline script
-├── utils/                 # Helper functions for downloading, transcription, summarization, OCR, etc.
-│   ├── download.py
-│   ├── transcript.py
-│   ├── summarizer.py
-│   └── ocr.py
-└── reports/               # Directory where generated Markdown reports are saved
+## 🛠️ Project Structure
+
+```bash
+Youtube_video_summarizer/
+├── debug_frames/                 # Preprocessed frames for OCR debugging
+├── frames/                       # Frames captured from the video at intervals
+├── videos/                       # Downloaded YouTube videos
+├── utils/                         # Helper functions for modularity
+│   ├── download.py               # Handles video downloading
+│   ├── transcript.py             # Retrieves/transcribes video transcripts
+│   ├── summarizer.py             # Summarizes transcripts using AI models
+│   ├── ocr.py                    # Performs OCR on video frames
+├── config.json                    # Configuration file for model settings, OCR, etc.
+├── requirements.txt                # List of required Python dependencies
+├── Video_Summarizer_Yash_Verma.ipynb  # Jupyter Notebook for demonstration
+├── Video_Summarizer_Yash_Verma.py      # Python script version (optional)
+├── summary_report.md              # Generated Markdown report of the summarized video
+├── README.md                      # This file, explaining the project
+
